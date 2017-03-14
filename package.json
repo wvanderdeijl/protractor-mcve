@@ -1,0 +1,16 @@
+{
+  "name": "protractor-external-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.1.1"
+  }
+}
