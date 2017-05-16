@@ -1,4 +1,4 @@
-Protractor MVCE
+Protractor MCVE (Minimal, Complete, and Verifiable example)
 ===
 
 > When asking a question about a problem caused by your code, you will get much better answers if you provide code people can use to reproduce the problem. That code should be…
@@ -7,7 +7,7 @@ Protractor MVCE
 >    …Verifiable – Test the code you're about to provide to make sure it reproduces the problem
 
 
-[From Stackoverflow's MVCE write up](https://stackoverflow.com/help/mcve)
+[From Stackoverflow's MCVE write up](https://stackoverflow.com/help/mcve)
 
 
 Usage
