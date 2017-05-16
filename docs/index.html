@@ -8,14 +8,10 @@
       <label>Name:</label>
       <input type="text" ng-model="yourName" placeholder="Enter a name here">
       <hr>
-      <h1>{{yourName}}, this is an example site that uses onbeforeunload to open a dialog</h1>
+      <h1>{{yourName}}, this is a protractor MVCE page</h1>
     </div>
 <script>
-  window.onbeforeunload = function(e) {
-    var dialogText = 'Dialog text here';
-    e.returnValue = dialogText;
-    return dialogText;
-  };
+  // Your JS Here
 </script>
   </body>
 </html>
