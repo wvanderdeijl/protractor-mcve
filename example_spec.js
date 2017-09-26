@@ -1,11 +1,6 @@
 describe('protractor', function() {
-  it('<description of your problem>', function() {
-    browser.get('http://www.angularjs.org');
-
-    element(by.model('yourName')).sendKeys('Julie');
-
-    var greeting = element(by.binding('yourName'));
-
-    expect(greeting.getText()).toEqual('Hello Julie!');
+  it('<description of your problem>', async function() {
+    await browser.get('http://www.angularjs.org');
+    const texts = await element.all(by.tagName('div')).map(elem => elem.getText());
   });
 });

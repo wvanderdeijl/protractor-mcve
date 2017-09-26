@@ -1,5 +1,6 @@
 // An example configuration file.
 exports.config = {
+  SELENIUM_PROMISE_MANAGER: false,
   directConnect: true,
 
   // Capabilities to be passed to the webdriver instance.
